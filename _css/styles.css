@@ -1,0 +1,108 @@
+.food {
+  color: #fff;
+  border-radius: 50%;
+  background: rgb(8, 28, 58);
+}
+
+.cart {
+  color: #fff;
+  border-radius: 50%;
+  background: rgb(8, 28, 58);
+}
+
+.user {
+  color: #fff;
+  border-radius: 50%;
+  background: rgb(8, 28, 58);
+}
+
+.map {
+  color: #fff;
+  border-radius: 50%;
+  background: rgb(8, 28, 58);
+}
+
+.form-group {
+  margin-bottom: 0px;
+}
+
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+input {
+  -webkit-appearance: none;
+  background-color: transparent;
+  cursor: text;
+  padding: 0px;
+  border-width: 0px;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: 0px;
+}
+
+.location {
+  text-align: center;
+  margin-top: 6px;
+}
+
+.trending {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 24px;
+}
+
+.three-img img {
+  width: 90px;
+  height: 90px;
+}
+
+.three-img {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxes-img img {
+  width: 120px;
+  height: 160px;
+}
+
+.three-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.fa-truck {
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 186, 30)
+}
+
+.fa-star-o {
+  text-decoration: underline;
+  text-decoration-color: rgb(51, 180, 215)
+}
+
+.fa-spinner {
+  text-decoration: underline;
+  text-decoration-color: rgb(238, 90, 83)
+}
+
+/* .icon-links__icon {
+  height: 40px; width: 40px; display: inline-block; position: absolute; top: 0; left: 0; transition: all .18s ease-in-out;
+}
+.icon-links__text {
+  height: 40px; width: 40px; font-size: 9px;position: absolute;top: 0;left: 40px; line-height: 40px; transition: all .18s ease-in-out;
+}
+a.icon-links:hover .icon-links__icon {
+  left: -44px;
+}
+a.icon-links:hover .icon-links__text {
+  left: 0px;
+} */
