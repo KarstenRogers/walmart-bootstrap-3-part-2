@@ -1,3 +1,7 @@
+.mt-50 {
+  margin-top: 50px;
+}
+
 .nav-carousel {
   position: relative;
   width: 1360px;
@@ -414,6 +418,29 @@ input {
   margin-top: 30px;
   margin-bottom: 15px;
   margin-left: 10px;
+}
+
+.shopping-exp {
+  text-align: center; 
+  font-size: 28px; 
+  margin-top: 50px;
+}
+
+.shopping-row {
+  width: 1360px;
+}
+
+.shopping-time img {
+  width: 225px;
+  height: 200px;
+}
+
+.shopping-time {
+
+}
+
+.first-shop {
+  width: 1360px;
 }
 
 @media (max-width: 767px) {
