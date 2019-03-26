@@ -385,6 +385,24 @@ input {
   width: 1360px;
 }
 
+.panel-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.panel-default {
+  border: none;
+}
+
+.panel-group .panel+.panel {
+  margin-top: 0px;
+}
+
+.panel-body {
+  padding: 0px;
+}
+
 @media (max-width: 767px) {
   .row-1 {
     display: grid;
