@@ -603,6 +603,26 @@ input {
   .smart-home-title {
     margin-top: 50px;
   }
+
+  .windex {
+    display: grid;
+    justify-content: center;
+  }
+
+  .blue-box {
+    width: -webkit-fill-available;
+    height: 155px;
+    text-align: center;
+  }
+
+  .smart-phone {
+    width: 800px;
+    margin-left: 290px;
+  }
+
+  .white-box {
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 991px) {
