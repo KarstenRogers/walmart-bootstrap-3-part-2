@@ -310,6 +310,7 @@ input {
 .category {
   text-align: center;
   font-size: 42px;
+  margin-left: 115px;
 }
 
 .text-column-one {
@@ -351,6 +352,37 @@ input {
 
 .col-xs-12 p {
   font-size: 42px;
+}
+
+.top-sellers-section {
+  text-align: center; 
+  font-size: 42px; 
+  margin-top: 50px; 
+  margin-bottom: 50px;
+}
+
+.white-box {
+  background-color: white;
+  display: inline-block;
+  margin-top: -53px;
+  height: 120px;
+  border-bottom: 4px solid rgb(149, 172, 228);
+  padding: 30px;
+  text-align: center;
+}
+
+.three-sellers img {
+  width: 100%;
+  height: auto;
+}
+
+.smart-home {
+  text-align: center;
+  width: 1360px;
+}
+
+.smart-home-title {
+  width: 1360px;
 }
 
 @media (max-width: 767px) {
@@ -535,5 +567,25 @@ input {
 
   .see-more {
     font-size: 20px;
+  }
+
+  .smart-columns {
+
+  }
+
+  .three-sellers img {
+
+  }
+}
+
+@media (max-width: 991px) {
+  .smart-columns {
+    width: 750px;
+    height: 750px;
+    margin-left: 266px;
+  }
+
+  .three-sellers img {
+    margin-top: 30px;
   }
 }
