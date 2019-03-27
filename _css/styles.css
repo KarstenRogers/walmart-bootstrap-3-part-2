@@ -14,6 +14,10 @@
   margin-top: 10px;
 }
 
+.mr-15 {
+  margin-right: 15px;
+}
+
 .nav-carousel {
   position: relative;
   width: 1360px;
@@ -545,6 +549,22 @@ input {
   height: 35px;
 }
 
+.footer-img {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer-logos {
+  width: 1360px;
+}
+
+.footer-img img {
+
+}
+
 @media (max-width: 767px) {
   .row-1 {
     display: grid;
@@ -796,6 +816,10 @@ input {
   .mobile {
     margin-right: 65px;
     font-size: 18px;
+  }
+
+  .brand-logo {
+    display: flex;
   }
 }
 
