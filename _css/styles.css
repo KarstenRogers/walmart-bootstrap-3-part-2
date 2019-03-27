@@ -14,8 +14,16 @@
   margin-top: 10px;
 }
 
+.mt-49 {
+  margin-top: 49px;
+}
+
 .mr-15 {
   margin-right: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
 }
 
 .nav-carousel {
@@ -345,7 +353,7 @@ input {
 .cats {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 .first-five {
@@ -385,7 +393,7 @@ input {
   background-color: white;
   display: inline-block;
   margin-top: -53px;
-  height: 120px;
+  height: 150px;
   border-bottom: 4px solid rgb(149, 172, 228);
   padding: 30px;
   text-align: center;
@@ -561,8 +569,30 @@ input {
   width: 1360px;
 }
 
-.footer-img img {
+.col-lg-offset-1 {
+  margin-left: 0%;
+}
 
+.footer-title {
+  width: 1360px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-title h1 {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.footer-title h4 {
+  font-size: 14px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+.footer-list {
+  width: 1360px;
 }
 
 @media (max-width: 767px) {
