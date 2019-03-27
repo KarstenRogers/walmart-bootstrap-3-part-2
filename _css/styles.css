@@ -30,6 +30,10 @@
   margin-bottom: 20px;
 }
 
+.mr-10 {
+  margin-right: 10px;
+}
+
 .nav-carousel {
   position: relative;
   width: 1360px;
@@ -872,6 +876,19 @@ input {
   }
 
   .footer-search {
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .shopping-time h3 {
+    text-align: center;
+  }
+
+  .pic-margin {
+    margin-top: 40px;
+  }
+
+  .windex {
+    margin-left: 8px;
   }
 }
