@@ -363,7 +363,7 @@ input {
 }
 
 .col-xs-12 p {
-  font-size: 42px;
+  font-size: 34px;
 }
 
 .top-sellers-section {
@@ -464,7 +464,7 @@ input {
 }
 
 .col-xs-12 h3 {
-  font-size: 24px;
+  font-size: 32px;
   margin-bottom: 40px;
 }
 
@@ -479,6 +479,26 @@ input {
 
 .spring-section {
   width: 1360px;
+}
+
+.spring-left {
+  width: 680px;
+  height: 788px;
+}
+
+.spring-right {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.spring-left img {
+  width: 100%;
+  height: auto;
+}
+
+.spring-rows {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media (max-width: 767px) {
@@ -687,10 +707,15 @@ input {
 
   .white-box {
     margin-bottom: 50px;
+    font-size: 24px;
   }
 
   .shopping-row h1 {
     font-size: 40px;
+  }
+
+  .spring-left {
+    margin-left: 335px;
   }
 }
 
