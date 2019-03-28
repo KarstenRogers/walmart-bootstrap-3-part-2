@@ -618,6 +618,19 @@ a.icon-links:hover .icon-links__icon {
 }
 a.icon-links:hover .icon-links__text {
   left: 0px;
+} 
+
+a.icon-links {
+  background-color: #041e42;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  height: 40px;
+  margin: 2px 16px 2px 0;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 40px; 
 }
 
 @media (max-width: 767px) {
