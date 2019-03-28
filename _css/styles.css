@@ -607,6 +607,19 @@ input {
   width: 1360px;
 }
 
+.icon-links__icon {
+  height: 40px; width: 40px; display: inline-block; position: absolute; top: 0; left: 0; transition: all .18s ease-in-out;
+}
+.icon-links__text {
+  height: 40px; width: 40px; font-size: 9px;position: absolute;top: 0;left: 40px; line-height: 40px; transition: all .18s ease-in-out;
+}
+a.icon-links:hover .icon-links__icon {
+  left: -44px;
+}
+a.icon-links:hover .icon-links__text {
+  left: 0px;
+}
+
 @media (max-width: 767px) {
   .row-1 {
     display: grid;
